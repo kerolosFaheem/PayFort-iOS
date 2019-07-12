@@ -3,18 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0871211E43165DEC2B3D4EA9 /* Pods_PayFort.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7912727C57E5BCD183383CA /* Pods_PayFort.framework */; };
 		3FCE3E0022CF783D00FDEEE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3DFF22CF783D00FDEEE7 /* AppDelegate.swift */; };
 		3FCE3E0222CF783D00FDEEE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3E0122CF783D00FDEEE7 /* ViewController.swift */; };
 		3FCE3E0522CF783D00FDEEE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCE3E0322CF783D00FDEEE7 /* Main.storyboard */; };
 		3FCE3E0722CF783F00FDEEE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCE3E0622CF783F00FDEEE7 /* Assets.xcassets */; };
 		3FCE3E0A22CF783F00FDEEE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCE3E0822CF783F00FDEEE7 /* LaunchScreen.storyboard */; };
+		3FCE3E2D22CF7AD500FDEEE7 /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3E1322CF7AD300FDEEE7 /* Digest.swift */; };
+		3FCE3E2E22CF7AD500FDEEE7 /* UInt64+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3E1422CF7AD300FDEEE7 /* UInt64+Extension.swift */; };
+		3FCE3E2F22CF7AD500FDEEE7 /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3E1522CF7AD300FDEEE7 /* Generics.swift */; };
+		3FCE3E3022CF7AD500FDEEE7 /* UInt16+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3E1622CF7AD300FDEEE7 /* UInt16+Extension.swift */; };
+		3FCE3E3122CF7AD500FDEEE7 /* BatchedCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3E1722CF7AD300FDEEE7 /* BatchedCollection.swift */; };
+		3FCE3E3222CF7AD500FDEEE7 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3E1822CF7AD300FDEEE7 /* Int+Extension.swift */; };
+		3FCE3E3322CF7AD500FDEEE7 /* Updatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3E1922CF7AD300FDEEE7 /* Updatable.swift */; };
+		3FCE3E3522CF7AD500FDEEE7 /* Bit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3E1B22CF7AD400FDEEE7 /* Bit.swift */; };
+		3FCE3E3622CF7AD500FDEEE7 /* SHA3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3E1C22CF7AD400FDEEE7 /* SHA3.swift */; };
+		3FCE3E3722CF7AD500FDEEE7 /* Array+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3E1D22CF7AD400FDEEE7 /* Array+Foundation.swift */; };
+		3FCE3E3822CF7AD500FDEEE7 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3E1E22CF7AD400FDEEE7 /* Array+Extension.swift */; };
+		3FCE3E3922CF7AD500FDEEE7 /* Checksum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3E1F22CF7AD400FDEEE7 /* Checksum.swift */; };
+		3FCE3E3A22CF7AD500FDEEE7 /* UInt8+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3E2022CF7AD400FDEEE7 /* UInt8+Extension.swift */; };
+		3FCE3E3B22CF7AD500FDEEE7 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3E2122CF7AD400FDEEE7 /* String+Extension.swift */; };
+		3FCE3E3C22CF7AD500FDEEE7 /* SHA2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3E2222CF7AD400FDEEE7 /* SHA2.swift */; };
+		3FCE3E3D22CF7AD500FDEEE7 /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3E2322CF7AD400FDEEE7 /* SHA1.swift */; };
+		3FCE3E3E22CF7AD500FDEEE7 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3E2422CF7AD400FDEEE7 /* Data+Extension.swift */; };
+		3FCE3E3F22CF7AD500FDEEE7 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3E2522CF7AD400FDEEE7 /* Array+Extensions.swift */; };
+		3FCE3E4022CF7AD500FDEEE7 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3E2622CF7AD500FDEEE7 /* Collection+Extension.swift */; };
+		3FCE3E4122CF7AD500FDEEE7 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3E2722CF7AD500FDEEE7 /* MD5.swift */; };
+		3FCE3E4222CF7AD500FDEEE7 /* DigestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3E2822CF7AD500FDEEE7 /* DigestType.swift */; };
+		3FCE3E4322CF7AD500FDEEE7 /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3E2922CF7AD500FDEEE7 /* Authenticator.swift */; };
+		3FCE3E4422CF7AD500FDEEE7 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3E2A22CF7AD500FDEEE7 /* Utils.swift */; };
+		3FCE3E4522CF7AD500FDEEE7 /* UInt32+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3E2B22CF7AD500FDEEE7 /* UInt32+Extension.swift */; };
+		3FCE3E4622CF7AD500FDEEE7 /* Cipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3E2C22CF7AD500FDEEE7 /* Cipher.swift */; };
+		3FCE3E4922CF7C8300FDEEE7 /* PayFortModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE3E4822CF7C8300FDEEE7 /* PayFortModel.swift */; };
+		3FCE3E4C22CF7D7E00FDEEE7 /* PayFortSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCE3E4A22CF7D7D00FDEEE7 /* PayFortSDK.framework */; };
+		3FCE3E4D22CF7D7E00FDEEE7 /* PayFortSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3FCE3E4B22CF7D7E00FDEEE7 /* PayFortSDK.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3218402553DACAD26BB1BE70 /* Pods-PayFort.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayFort.release.xcconfig"; path = "Target Support Files/Pods-PayFort/Pods-PayFort.release.xcconfig"; sourceTree = "<group>"; };
 		3FCE3DFC22CF783D00FDEEE7 /* PayFort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayFort.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCE3DFF22CF783D00FDEEE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FCE3E0122CF783D00FDEEE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +52,37 @@
 		3FCE3E0622CF783F00FDEEE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FCE3E0922CF783F00FDEEE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FCE3E0B22CF783F00FDEEE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FCE3E1322CF7AD300FDEEE7 /* Digest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Digest.swift; sourceTree = "<group>"; };
+		3FCE3E1422CF7AD300FDEEE7 /* UInt64+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UInt64+Extension.swift"; sourceTree = "<group>"; };
+		3FCE3E1522CF7AD300FDEEE7 /* Generics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
+		3FCE3E1622CF7AD300FDEEE7 /* UInt16+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UInt16+Extension.swift"; sourceTree = "<group>"; };
+		3FCE3E1722CF7AD300FDEEE7 /* BatchedCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatchedCollection.swift; sourceTree = "<group>"; };
+		3FCE3E1822CF7AD300FDEEE7 /* Int+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		3FCE3E1922CF7AD300FDEEE7 /* Updatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Updatable.swift; sourceTree = "<group>"; };
+		3FCE3E1B22CF7AD400FDEEE7 /* Bit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bit.swift; sourceTree = "<group>"; };
+		3FCE3E1C22CF7AD400FDEEE7 /* SHA3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHA3.swift; sourceTree = "<group>"; };
+		3FCE3E1D22CF7AD400FDEEE7 /* Array+Foundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Foundation.swift"; sourceTree = "<group>"; };
+		3FCE3E1E22CF7AD400FDEEE7 /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		3FCE3E1F22CF7AD400FDEEE7 /* Checksum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checksum.swift; sourceTree = "<group>"; };
+		3FCE3E2022CF7AD400FDEEE7 /* UInt8+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UInt8+Extension.swift"; sourceTree = "<group>"; };
+		3FCE3E2122CF7AD400FDEEE7 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		3FCE3E2222CF7AD400FDEEE7 /* SHA2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHA2.swift; sourceTree = "<group>"; };
+		3FCE3E2322CF7AD400FDEEE7 /* SHA1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHA1.swift; sourceTree = "<group>"; };
+		3FCE3E2422CF7AD400FDEEE7 /* Data+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
+		3FCE3E2522CF7AD400FDEEE7 /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		3FCE3E2622CF7AD500FDEEE7 /* Collection+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
+		3FCE3E2722CF7AD500FDEEE7 /* MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
+		3FCE3E2822CF7AD500FDEEE7 /* DigestType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigestType.swift; sourceTree = "<group>"; };
+		3FCE3E2922CF7AD500FDEEE7 /* Authenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authenticator.swift; sourceTree = "<group>"; };
+		3FCE3E2A22CF7AD500FDEEE7 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		3FCE3E2B22CF7AD500FDEEE7 /* UInt32+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UInt32+Extension.swift"; sourceTree = "<group>"; };
+		3FCE3E2C22CF7AD500FDEEE7 /* Cipher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cipher.swift; sourceTree = "<group>"; };
+		3FCE3E4822CF7C8300FDEEE7 /* PayFortModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayFortModel.swift; sourceTree = "<group>"; };
+		3FCE3E4A22CF7D7D00FDEEE7 /* PayFortSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PayFortSDK.framework; sourceTree = "<group>"; };
+		3FCE3E4B22CF7D7E00FDEEE7 /* PayFortSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PayFortSDK.bundle; sourceTree = "<group>"; };
+		3FCE3E4E22CF7DB500FDEEE7 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		8379B9485A57AAF3C6FD078B /* Pods-PayFort.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayFort.debug.xcconfig"; path = "Target Support Files/Pods-PayFort/Pods-PayFort.debug.xcconfig"; sourceTree = "<group>"; };
+		F7912727C57E5BCD183383CA /* Pods_PayFort.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayFort.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +90,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0871211E43165DEC2B3D4EA9 /* Pods_PayFort.framework in Frameworks */,
+				3FCE3E4C22CF7D7E00FDEEE7 /* PayFortSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		046E1F3C69D4BF2803EBE7E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8379B9485A57AAF3C6FD078B /* Pods-PayFort.debug.xcconfig */,
+				3218402553DACAD26BB1BE70 /* Pods-PayFort.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3FCE3DF322CF783D00FDEEE7 = {
 			isa = PBXGroup;
 			children = (
 				3FCE3DFE22CF783D00FDEEE7 /* PayFort */,
 				3FCE3DFD22CF783D00FDEEE7 /* Products */,
+				046E1F3C69D4BF2803EBE7E1 /* Pods */,
+				69956AEEBB80D81E4F78DA63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +128,75 @@
 		3FCE3DFE22CF783D00FDEEE7 /* PayFort */ = {
 			isa = PBXGroup;
 			children = (
-				3FCE3DFF22CF783D00FDEEE7 /* AppDelegate.swift */,
+				3FCE3E1122CF784800FDEEE7 /* App Delegate */,
+				3FCE3E1222CF7A3F00FDEEE7 /* Helper Files */,
+				3FCE3E4722CF7AEE00FDEEE7 /* Model */,
 				3FCE3E0122CF783D00FDEEE7 /* ViewController.swift */,
 				3FCE3E0322CF783D00FDEEE7 /* Main.storyboard */,
 				3FCE3E0622CF783F00FDEEE7 /* Assets.xcassets */,
 				3FCE3E0822CF783F00FDEEE7 /* LaunchScreen.storyboard */,
 				3FCE3E0B22CF783F00FDEEE7 /* Info.plist */,
+				3FCE3E4E22CF7DB500FDEEE7 /* Bridging-Header.h */,
 			);
 			path = PayFort;
+			sourceTree = "<group>";
+		};
+		3FCE3E1122CF784800FDEEE7 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				3FCE3DFF22CF783D00FDEEE7 /* AppDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		3FCE3E1222CF7A3F00FDEEE7 /* Helper Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FCE3E1E22CF7AD400FDEEE7 /* Array+Extension.swift */,
+				3FCE3E2522CF7AD400FDEEE7 /* Array+Extensions.swift */,
+				3FCE3E1D22CF7AD400FDEEE7 /* Array+Foundation.swift */,
+				3FCE3E2922CF7AD500FDEEE7 /* Authenticator.swift */,
+				3FCE3E1722CF7AD300FDEEE7 /* BatchedCollection.swift */,
+				3FCE3E1B22CF7AD400FDEEE7 /* Bit.swift */,
+				3FCE3E1F22CF7AD400FDEEE7 /* Checksum.swift */,
+				3FCE3E2C22CF7AD500FDEEE7 /* Cipher.swift */,
+				3FCE3E2622CF7AD500FDEEE7 /* Collection+Extension.swift */,
+				3FCE3E2422CF7AD400FDEEE7 /* Data+Extension.swift */,
+				3FCE3E1322CF7AD300FDEEE7 /* Digest.swift */,
+				3FCE3E2822CF7AD500FDEEE7 /* DigestType.swift */,
+				3FCE3E1522CF7AD300FDEEE7 /* Generics.swift */,
+				3FCE3E1822CF7AD300FDEEE7 /* Int+Extension.swift */,
+				3FCE3E2722CF7AD500FDEEE7 /* MD5.swift */,
+				3FCE3E2322CF7AD400FDEEE7 /* SHA1.swift */,
+				3FCE3E2222CF7AD400FDEEE7 /* SHA2.swift */,
+				3FCE3E1C22CF7AD400FDEEE7 /* SHA3.swift */,
+				3FCE3E2122CF7AD400FDEEE7 /* String+Extension.swift */,
+				3FCE3E2022CF7AD400FDEEE7 /* UInt8+Extension.swift */,
+				3FCE3E1622CF7AD300FDEEE7 /* UInt16+Extension.swift */,
+				3FCE3E2B22CF7AD500FDEEE7 /* UInt32+Extension.swift */,
+				3FCE3E1422CF7AD300FDEEE7 /* UInt64+Extension.swift */,
+				3FCE3E1922CF7AD300FDEEE7 /* Updatable.swift */,
+				3FCE3E2A22CF7AD500FDEEE7 /* Utils.swift */,
+			);
+			path = "Helper Files";
+			sourceTree = "<group>";
+		};
+		3FCE3E4722CF7AEE00FDEEE7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FCE3E4822CF7C8300FDEEE7 /* PayFortModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		69956AEEBB80D81E4F78DA63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FCE3E4B22CF7D7E00FDEEE7 /* PayFortSDK.bundle */,
+				3FCE3E4A22CF7D7D00FDEEE7 /* PayFortSDK.framework */,
+				F7912727C57E5BCD183383CA /* Pods_PayFort.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FCE3E0E22CF783F00FDEEE7 /* Build configuration list for PBXNativeTarget "PayFort" */;
 			buildPhases = (
+				16019B068407DE132EA5E6DE /* [CP] Check Pods Manifest.lock */,
 				3FCE3DF822CF783D00FDEEE7 /* Sources */,
 				3FCE3DF922CF783D00FDEEE7 /* Frameworks */,
 				3FCE3DFA22CF783D00FDEEE7 /* Resources */,
+				AB11068C8EA43192ECE79052 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCE3E4D22CF7D7E00FDEEE7 /* PayFortSDK.bundle in Resources */,
 				3FCE3E0A22CF783F00FDEEE7 /* LaunchScreen.storyboard in Resources */,
 				3FCE3E0722CF783F00FDEEE7 /* Assets.xcassets in Resources */,
 				3FCE3E0522CF783D00FDEEE7 /* Main.storyboard in Resources */,
@@ -130,13 +268,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16019B068407DE132EA5E6DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayFort-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB11068C8EA43192ECE79052 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayFort/Pods-PayFort-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayFort/Pods-PayFort-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PayFort/Pods-PayFort-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3FCE3DF822CF783D00FDEEE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCE3E3A22CF7AD500FDEEE7 /* UInt8+Extension.swift in Sources */,
+				3FCE3E3522CF7AD500FDEEE7 /* Bit.swift in Sources */,
+				3FCE3E4622CF7AD500FDEEE7 /* Cipher.swift in Sources */,
+				3FCE3E3922CF7AD500FDEEE7 /* Checksum.swift in Sources */,
+				3FCE3E3022CF7AD500FDEEE7 /* UInt16+Extension.swift in Sources */,
+				3FCE3E4422CF7AD500FDEEE7 /* Utils.swift in Sources */,
+				3FCE3E3D22CF7AD500FDEEE7 /* SHA1.swift in Sources */,
+				3FCE3E3C22CF7AD500FDEEE7 /* SHA2.swift in Sources */,
+				3FCE3E4922CF7C8300FDEEE7 /* PayFortModel.swift in Sources */,
+				3FCE3E3222CF7AD500FDEEE7 /* Int+Extension.swift in Sources */,
+				3FCE3E3722CF7AD500FDEEE7 /* Array+Foundation.swift in Sources */,
 				3FCE3E0222CF783D00FDEEE7 /* ViewController.swift in Sources */,
+				3FCE3E3F22CF7AD500FDEEE7 /* Array+Extensions.swift in Sources */,
+				3FCE3E4022CF7AD500FDEEE7 /* Collection+Extension.swift in Sources */,
+				3FCE3E3B22CF7AD500FDEEE7 /* String+Extension.swift in Sources */,
+				3FCE3E3322CF7AD500FDEEE7 /* Updatable.swift in Sources */,
+				3FCE3E4522CF7AD500FDEEE7 /* UInt32+Extension.swift in Sources */,
 				3FCE3E0022CF783D00FDEEE7 /* AppDelegate.swift in Sources */,
+				3FCE3E4322CF7AD500FDEEE7 /* Authenticator.swift in Sources */,
+				3FCE3E4122CF7AD500FDEEE7 /* MD5.swift in Sources */,
+				3FCE3E2F22CF7AD500FDEEE7 /* Generics.swift in Sources */,
+				3FCE3E3622CF7AD500FDEEE7 /* SHA3.swift in Sources */,
+				3FCE3E2D22CF7AD500FDEEE7 /* Digest.swift in Sources */,
+				3FCE3E3822CF7AD500FDEEE7 /* Array+Extension.swift in Sources */,
+				3FCE3E3E22CF7AD500FDEEE7 /* Data+Extension.swift in Sources */,
+				3FCE3E4222CF7AD500FDEEE7 /* DigestType.swift in Sources */,
+				3FCE3E3122CF7AD500FDEEE7 /* BatchedCollection.swift in Sources */,
+				3FCE3E2E22CF7AD500FDEEE7 /* UInt64+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,17 +486,30 @@
 		};
 		3FCE3E0F22CF783F00FDEEE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8379B9485A57AAF3C6FD078B /* Pods-PayFort.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 364D324M34;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PayFort/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.devloop.PayFort;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PayFort/Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,17 +517,30 @@
 		};
 		3FCE3E1022CF783F00FDEEE7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3218402553DACAD26BB1BE70 /* Pods-PayFort.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 364D324M34;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PayFort/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.devloop.PayFort;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PayFort/Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
